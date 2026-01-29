@@ -1,0 +1,40 @@
+.card {
+  width: 250px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.best {
+  border: 2px solid green;
+  background: #f0fff0;
+}
+
+.badge {
+  color: green;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+	

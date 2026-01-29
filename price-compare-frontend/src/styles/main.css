@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.prices {
+  display: flex;
+  gap: 20px;
+}
+
+.price-card {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.price-card.best {
+  border: 2px solid green;
+  background: #f0fff4;
+}
+
+.badge {
+  color: green;
+  font-weight: bold;
+}

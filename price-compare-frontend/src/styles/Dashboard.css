@@ -1,0 +1,16 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.best {
+  color: green;
+  font-weight: bold;
+}
