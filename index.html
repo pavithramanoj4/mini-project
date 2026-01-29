@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+
+    <p class="text">Don't have an account? Sign Up</p>
+</div>
+
+<script>
+function login() {
+    const email = document.getElementById("email").value;
+
+    if (email === "") {
+        alert("Please enter email");
+        return;
+    }
+
+    window.location.href = "profile.html?email=" + email;
+}
+</script>
+
+</body>
+</html>

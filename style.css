@@ -1,0 +1,63 @@
+
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f4f8;
+}
+
+/* LOGIN */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* PROFILE */
+.profile-container {
+    width: 320px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+
+.menu {
+    background: #eef1ff;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+}

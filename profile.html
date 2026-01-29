@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="profile-container">
+   
+    <h2 id="name">User</h2>
+    <p id="email"></p>
+
+    <div class="menu">❤️ Wish List</div>
+    <div class="menu">🔔 Price Alerts</div>
+    <div class="menu">⭐ My Reviews</div>
+    <div class="menu">🛒 Order History</div>
+    <div class="menu">💳 Payment Methods</div>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const email = params.get("email");
+
+if (email) {
+    document.getElementById("email").innerText = email;
+    document.getElementById("name").innerText = email.split("@")[0];
+}
+</script>
+
+</body>
+</html>
